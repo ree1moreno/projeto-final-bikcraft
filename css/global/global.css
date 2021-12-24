@@ -7,7 +7,10 @@ body {
 
 h1,
 ul,
-p {
+p,
+h2,
+h3,
+h4 {
   margin: 0;
 }
 
@@ -24,4 +27,8 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
